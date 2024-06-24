@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Contact</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="contact">
+        <h2>Get In Touch!</h2>
+        <p>👋 Send me a message below.</p>
+        <form id="contact-form">
+            <label for="name"><span class="icon">👤</span>Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email"><span class="icon">📧</span>Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message"><span class="icon">💬</span>Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit"><span class="icon">✉️</span> Send</button>
+        </form>
+        <div class="social-links">
+            <a href="mailto:brichardson2468@gmail.com"><span class="icon">📧</span> Email</a>
+            <a href="https://www.linkedin.com/in/brad-richardson-793607225/"><span class="icon">🔗</span> LinkedIn</a>
+            <a href="https://github.com/brichardson2468/"><span class="icon">🐱</span> GitHub</a>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Brad Richardson</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
